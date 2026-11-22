@@ -14,7 +14,7 @@ The EQ page offers per-band filter modes, as on the surface: **LOW CUT / LOW SHE
 
 ### Files
 
-- Complete review package: `openx32-quantum-review.zip` (attached).
+- Complete review package: [openx32-quantum-review v19](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19) — [direct ZIP download](https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip). GitHub issues cannot attach ZIP files, so it is hosted as a release asset under my account.
 - `index.html`, `styles.css`, `app.js` — open directly from `file://`, no dependencies.
 - `README.md` — quick start and feature list.
 - `docs/DESIGN.md` — UI specification.
@@ -25,21 +25,21 @@ No logos, artwork, icons, trademarks or protected console assets are included. A
 
 ### Screenshots (800×480)
 
-![Overview](screenshots/overview.png)
+![Overview](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/overview.png)
 
-![Show config](screenshots/setup.png)
+![Show config](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/setup.png)
 
-![Fader map](screenshots/assign.png)
+![Fader map](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/assign.png)
 
-![Routing](screenshots/routing.png)
+![Routing](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/routing.png)
 
-![EQ filter modes](screenshots/eq.png)
+![EQ filter modes](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/eq.png)
 
-![AUX bus and maps](screenshots/aux.png)
+![AUX bus and maps](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/aux.png)
 
-![Monitor](screenshots/monitor.png)
+![Monitor](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/monitor.png)
 
-![Scenes](screenshots/scenes.png)
+![Scenes](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/scenes.png)
 
 ### Try it in 30 seconds
 

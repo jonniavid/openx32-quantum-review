@@ -1,22 +1,27 @@
-# Local review package — not sent yet
+# Review package — sent to OpenX32
 
-This folder is prepared for a humble proposal to the OpenMixerProject maintainers. Nothing has been published, posted or emailed.
+The proposal was published as [OpenX32 issue #142](https://github.com/OpenMixerProject/OpenX32/issues/142).
 
-## What to send
+Because GitHub issues do not accept ZIP attachments and this account has read-only access to `OpenMixerProject/OpenX32`, the complete package is hosted as a release asset under the author's account:
 
-Attach the ZIP `openx32-quantum-review.zip` (next to this folder) or the following files:
+- Source repository: https://github.com/jonniavid/openx32-quantum-review
+- Release v19: https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19
+- Direct ZIP: https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip
+
+Nothing was posted to the Discourse forum or to `OpenMixerControl`.
+
+## What was sent
 
 - `index.html`, `styles.css`, `app.js` — the 800×480 prototype, opens from `file://` with zero dependencies.
 - `README.md` — quick start and feature list.
 - `docs/DESIGN.md` — UI specification.
 - `docs/PORTING.md` — OpenMixerControl / EEZ Studio / LVGL 9.5 porting plan.
-- `docs/PROPOSAL.md` — short proposal for the project.
-- `docs/FORUM_POST.md` — ready-to-adapt message for the forum or a GitHub discussion.
+- `docs/PROPOSAL.md`, `docs/FORUM_POST.md`, `docs/SUBMISSION.md` — proposal and message drafts.
 - `screenshots/` — 800×480 PNGs: `overview`, `setup`, `assign`, `routing`, `scenes`, `monitor`, `eq`, `aux`.
 
-## Suggested opening message
+## Message used in the issue
 
-> Hello, I prepared a small, dependency-free 800×480 UI prototype for the M32/X32 form factor. The idea is to define the show first (SHOW CONFIG) and then make fader banks, routing, AUX maps and scenes follow only the resources that actually exist. It is not firmware: it is a navigable specification plus a porting plan. If the direction is useful, I would be glad to adapt it inside OpenMixerControl, and maintainers are welcome to change or discard anything. Files and screenshots are attached. Thank you for the feedback.
+> Hello, I prepared a small, dependency-free 800×480 UI prototype for the M32/X32 form factor. The idea is to define the show first (SHOW CONFIG) and then make fader banks, routing, AUX maps and scenes follow only the resources that actually exist. It is not firmware: it is a navigable specification plus a porting plan. If the direction is useful, I would be glad to adapt it inside OpenMixerControl, and maintainers are welcome to change or discard anything. Thank you for the feedback.
 
 ## Review path (30 seconds)
 
@@ -35,7 +40,3 @@ Attach the ZIP `openx32-quantum-review.zip` (next to this folder) or the followi
 - Every page keeps `#screen` at `744×412` with no overflow at the 800×480 framebuffer.
 - Screenshots were regenerated at `800×480` from version tag `v=19`.
 - No DiGiCo logos, artwork, icons or protected assets; wording is English and "Quantum UI" is not shown.
-
-## Before sending
-
-Confirm the destination (GitHub issue/discussion in `OpenX32` or `OpenMixerControl`, or the Discourse forum), then attach the ZIP and use `docs/FORUM_POST.md` as the message draft.
