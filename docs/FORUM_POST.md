@@ -6,6 +6,8 @@ I have prepared a navigable UI prototype for M32/X32 and would like to ask for f
 
 **Folder:** `openx32-quantum` (`index.html`, `styles.css`, `app.js`, documentation). It opens directly from `file://`, with no dependencies.
 
+**Complete package:** [release v19](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19) · [direct ZIP](https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip) · [source repository](https://github.com/jonniavid/openx32-quantum-review).
+
 ### The idea
 
 Instead of always showing the whole console, the UI starts from a **SHOW CONFIG** page where you define what exists in the show: number of INPUTs, AUX, FX, GROUPs, MATRIX and OUTPUTs, mono/stereo format, group destinations and FX pre/post. With `HIDE UNUSED`, unused resources **really disappear** from overview, sends, meters, monitor and the routing matrix.
@@ -27,7 +29,14 @@ Because it is already a navigable and portable UI specification: 16 screens with
 5. `ROUTE` → `GROUP → GROUP IN` / `MATRIX → GROUP IN`.
 6. `SCENE` → STORE / RECALL: the setup and the bank map return identically.
 
-800×480 screenshots: `screenshots/overview.png`, `setup.png`, `assign.png`, `routing.png`, `scenes.png`, `monitor.png`, `eq.png`, `aux.png`.
+![Overview](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/overview.png)
+![Setup](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/setup.png)
+![Assign](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/assign.png)
+![Routing](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/routing.png)
+![Eq](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/eq.png)
+![Aux](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/aux.png)
+![Monitor](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/monitor.png)
+![Scenes](https://raw.githubusercontent.com/jonniavid/openx32-quantum-review/main/screenshots/scenes.png)
 
 ### Questions
 
