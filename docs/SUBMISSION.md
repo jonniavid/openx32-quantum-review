@@ -1,14 +1,22 @@
 # Review package — sent to OpenX32
 
-The proposal was published as [OpenX32 issue #142](https://github.com/OpenMixerProject/OpenX32/issues/142).
+The proposal was published on 22 November 2026 and then transferred by the maintainers to [Ticketsystem issue #11](https://github.com/OpenMixerProject/Ticketsystem/issues/11) (the former OpenX32 issue #142). It is open, assigned to `jonniavid`, type Feature.
+
+Maintainer feedback:
+- "I really like the accent color!"
+- Asked whether EEZ Studio screens and LVGL bindings can be prepared on a fork of `OpenMixerControl`: "Yes, you can prepare that. In Future we want to have OMC as a real client as a separate process on the X32."
 
 Because GitHub issues do not accept ZIP attachments and this account has read-only access to `OpenMixerProject/OpenX32`, the complete package is hosted as a release asset under the author's account:
 
 - Source repository: https://github.com/jonniavid/openx32-quantum-review
-- Release v19: https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19
-- Direct ZIP: https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip
+- Release v20: https://github.com/jonniavid/openx32-quantum-review/releases/tag/v20
+- Direct ZIP: https://github.com/jonniavid/openx32-quantum-review/releases/download/v20/openx32-quantum-review.zip
 
-Nothing was posted to the Discourse forum or to `OpenMixerControl`.
+The forum draft was submitted manually by the author in the `Behringer X32 and M32` category; at the last check (23 November 2026) it was still awaiting moderation and was not visible in `latest.json` or search. A ready-to-paste follow-up is kept in `docs/FORUM_UPDATE.md`; publishing it requires the author's Discourse login, which is not available here. The author confirmed that publishing on the GitHub ticket was sufficient, so no further forum action is required.
+
+Native port (updated 26 November 2026): the show-first page was ported to OpenMixerControl as a native LVGL overlay that reproduces this prototype's layout, and proposed upstream in [OpenMixerControl PR #128](https://github.com/OpenMixerProject/OpenMixerControl/pull/128) (branch `ui/show-first-prototype` on the author's fork). The PR is open, includes the browser prototype under `contrib/` as a design reference, and was retargeted from `development` to `development-v2` on 25 November at the maintainer's request. It is mergeable/clean with no CI checks reported. On 26 November a reproducible cross-build script was added: `compile-cross.sh` downloads the required toolchains and builds `TARGET_PC_SDL2`, `TARGET_XM32` and `TARGET_WING` from clean. All three targets were verified with zero errors. Latest commits: `3a4e907` (reproducible cross-build script), `f7607c0` (route simulator encoders to the overlay and make the DELAY knob edit the selected channel), `1092759` (static IP editor and full channel groups in SHOW CONFIG).
+
+The native-port update was published publicly on the ticket on 23 November 2026: comment [7100048201](https://github.com/OpenMixerProject/Ticketsystem/issues/11#issuecomment-7100048201) (PR #128 and simulator verification) and comment [7100062159](https://github.com/OpenMixerProject/Ticketsystem/issues/11#issuecomment-7100062159) (links to code, ZIP and screenshots). On 24 November the maintainer asked to move the PR to `development-v2` ([comment 7145867483](https://github.com/OpenMixerProject/OpenMixerControl/pull/128#issuecomment-7145867483)); on 25 November the new version was posted in the PR ([comment 7155725294](https://github.com/OpenMixerProject/OpenMixerControl/pull/128#issuecomment-7155725294)) and cross-referenced on the ticket ([comment 7155728027](https://github.com/OpenMixerProject/Ticketsystem/issues/11#issuecomment-7155728027)). The issue has 6 comments and remains open.
 
 ## What was sent
 
@@ -17,6 +25,7 @@ Nothing was posted to the Discourse forum or to `OpenMixerControl`.
 - `docs/DESIGN.md` — UI specification.
 - `docs/PORTING.md` — OpenMixerControl / EEZ Studio / LVGL 9.5 porting plan.
 - `docs/PROPOSAL.md`, `docs/FORUM_POST.md`, `docs/SUBMISSION.md` — proposal and message drafts.
+- `docs/NATIVE_PORT.md` — native LVGL port status and cross-build checks.
 - `screenshots/` — 800×480 PNGs: `overview`, `setup`, `assign`, `routing`, `scenes`, `monitor`, `eq`, `aux`.
 
 ## Message used in the issue

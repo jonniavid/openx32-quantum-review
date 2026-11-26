@@ -14,7 +14,7 @@ The EQ page offers per-band filter modes, as on the surface: **LOW CUT / LOW SHE
 
 ### Files
 
-- Complete review package: [openx32-quantum-review v19](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19) — [direct ZIP download](https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip). GitHub issues cannot attach ZIP files, so it is hosted as a release asset under my account.
+- Complete review package: [openx32-quantum-review v20](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v20) — [direct ZIP download](https://github.com/jonniavid/openx32-quantum-review/releases/download/v20/openx32-quantum-review.zip). GitHub issues cannot attach ZIP files, so it is hosted as a release asset under my account.
 - `index.html`, `styles.css`, `app.js` — open directly from `file://`, no dependencies.
 - `README.md` — quick start and feature list.
 - `docs/DESIGN.md` — UI specification.

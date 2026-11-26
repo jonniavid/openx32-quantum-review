@@ -6,7 +6,7 @@ I have prepared a navigable UI prototype for M32/X32 and would like to ask for f
 
 **Folder:** `openx32-quantum` (`index.html`, `styles.css`, `app.js`, documentation). It opens directly from `file://`, with no dependencies.
 
-**Complete package:** [release v19](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v19) · [direct ZIP](https://github.com/jonniavid/openx32-quantum-review/releases/download/v19/openx32-quantum-review.zip) · [source repository](https://github.com/jonniavid/openx32-quantum-review).
+**Complete package:** [release v20](https://github.com/jonniavid/openx32-quantum-review/releases/tag/v20) · [direct ZIP](https://github.com/jonniavid/openx32-quantum-review/releases/download/v20/openx32-quantum-review.zip) · [source repository](https://github.com/jonniavid/openx32-quantum-review).
 
 ### The idea
 
