@@ -1,11 +1,12 @@
 # Native port status
 
-The show-first UI is also implemented as a native LVGL page in OpenMixerControl.
+The show-first UI was also implemented as a native LVGL page in OpenMixerControl, but the proposal was not kept.
 
-- Pull request: https://github.com/OpenMixerProject/OpenMixerControl/pull/128
-- Branch: `ui/show-first-prototype` on `jonniavid/OpenMixerControl`
-- Base branch: `development-v2`
-- Current head: `3a4e907`
+- Pull request: https://github.com/OpenMixerProject/OpenMixerControl/pull/128 (closed on 27 November 2026)
+- Branch: `ui/show-first-prototype` on `jonniavid/OpenMixerControl`, kept only as reference
+- Base branch was `development-v2`
+- Last head: `3a4e907`
+- Reason: the maintainer tested the merge and decided the UI did not fit the current OMC. Future work should target a separate OMC client after the OMS/OMC split: https://github.com/OpenMixerProject/Ticketsystem/issues/39
 
 The page reuses the existing empty Prototype GUI tab, so the EEZ Studio project
 does not need to be regenerated. It keeps the 800x480 layout, accent color,

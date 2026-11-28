@@ -4,7 +4,7 @@ Interactive UI prototype for **Midas M32 / Behringer X32**, built on the visual 
 
 > ⚠️ **This is not flashable firmware yet.** It is a navigable UI specification (800×480, the same framebuffer size as the M32) plus a porting plan for LVGL inside `OpenMixerControl`. DSP, FPGA and boot loader remain those of OpenX32.
 
-The native LVGL port is proposed in [OpenMixerControl PR #128](https://github.com/OpenMixerProject/OpenMixerControl/pull/128). Build status and details are in [docs/NATIVE_PORT.md](docs/NATIVE_PORT.md).
+The native LVGL port proposal was tested upstream and then closed; the browser prototype remains the reference. Details are in [docs/NATIVE_PORT.md](docs/NATIVE_PORT.md).
 
 ## Getting started
 

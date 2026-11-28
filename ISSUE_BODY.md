@@ -2,6 +2,8 @@ Hello everyone,
 
 I would like to propose, with great humility and simplicity, a navigable **800×480 UI prototype** for the M32/X32 form factor. It is not firmware: it does not touch DSP, FPGA, boot or audio routing. It is a zero-dependency UI specification plus a porting plan for `OpenMixerControl`. Maintainers are welcome to modify, reduce or discard anything.
 
+**Update (28 November 2026):** the native port in PR #128 was tested and then closed because it did not fit the current OMC UI. Future work should wait for the OMS/OMC split in issue #39 and target a separate OMC client. The browser prototype remains available as a reference.
+
 ### The idea
 
 Instead of always showing the whole console, the UI starts from **SHOW CONFIG**, where the operator defines what exists in the show: number of INPUTs, AUX, FX, GROUPs, MATRIX and OUTPUTs, mono/stereo format, group destinations and FX pre/post. With `HIDE UNUSED`, unused resources really disappear from OVERVIEW, AUX, MONITOR, FX, METERS and ROUTING. If the show has 8 inputs, the operator sees 8 faders, not 24.
